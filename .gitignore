@@ -1,0 +1,5 @@
+webapp/node_modules/
+webapp/dist/
+__pycache__/
+*.py[cod]
+.venv/

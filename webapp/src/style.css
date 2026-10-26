@@ -1,0 +1,65 @@
+:root {
+  color: #172033;
+  background: #f5f7fa;
+  font-family: "Noto Sans JP", "Yu Gothic", sans-serif;
+  font-synthesis: none;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+button, select, input { font: inherit; }
+.app-shell { max-width: 1440px; margin: 0 auto; padding: 32px clamp(16px, 4vw, 56px) 48px; }
+.masthead { border-bottom: 1px solid #d5dce5; margin-bottom: 20px; padding-bottom: 18px; }
+.wordmark { position: relative; display: block; width: min(100%, 760px); margin: 0 0 7px; padding: 5px 20px 10px; overflow: hidden; color: #172033; font-size: clamp(1.7rem, 3vw, 2.7rem); font-weight: 600; letter-spacing: .04em; line-height: 1.15; }
+.wordmark-map { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%; opacity: .8; }
+.wordmark span, .wordmark small { position: relative; z-index: 1; display: block; }
+.wordmark small { margin-top: 6px; color: #526174; font-family: Arial, sans-serif; font-size: .48rem; font-weight: 400; letter-spacing: .25em; }
+.masthead p { margin: 0; color: #526174; }
+.eyebrow { color: #16739b; font-size: .73rem; font-weight: 700; letter-spacing: .14em; margin: 0 0 7px; }
+.card { background: white; border: 1px solid #d5dce5; border-radius: 2px; box-shadow: 3px 3px 0 #e8edf2; }
+.metric-tabs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; padding: 0; margin-bottom: 20px; }
+.metric-tabs button { border: 0; border-right: 1px solid #d5dce5; background: transparent; color: #526174; cursor: pointer; padding: 14px 8px; font-weight: 700; }
+.metric-tabs button:first-child { border-left: 4px solid #0c698f; }
+.metric-tabs button:last-child { border-right: 0; }
+.metric-tabs button:hover { background: #f0f4f7; }
+.metric-tabs button.active { background: #0c698f; color: white; }
+.metric-tabs button.active { background: #0c698f; color: white; }
+label, legend { color: #526174; font-size: .84rem; font-weight: 700; }
+select { display: block; width: 100%; margin-top: 6px; border: 1px solid #bac7d5; border-radius: 2px; background: white; padding: 8px; color: #172033; }
+fieldset { border: 0; padding: 0; margin: 0; }
+fieldset label { display: inline-flex; gap: 6px; margin: 12px 12px 0 0; font-weight: 400; }
+.year-heading { display: flex; justify-content: space-between; align-items: baseline; }
+.year-heading strong { color: #0c698f; font-size: 1.6rem; }
+input[type="range"] { --progress: 50%; width: 100%; margin: 10px 0 0; accent-color: #16739b; }
+.range-labels { display: flex; justify-content: space-between; color: #718096; font-size: .72rem; }
+.play-controls { display: flex; align-items: center; gap: 12px; margin-top: 8px; }
+.play-controls button { border: 0; border-radius: 2px; background: #0c698f; color: white; padding: 7px 15px; cursor: pointer; }
+.play-controls label { display: flex; align-items: center; gap: 5px; font-weight: 400; }
+.play-controls select { display: inline-block; width: auto; margin: 0; padding: 5px; }
+.workspace { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(320px, .85fr); gap: 20px; margin-top: 20px; }
+.map-panel, .details-panel { padding: 20px; }
+.details-panel { margin-top: 20px; }
+.section-heading { display: flex; justify-content: space-between; align-items: start; gap: 10px; }
+h2 { font-size: 1.25rem; margin: 0 0 14px; }
+.legend { border-left: 3px solid #0c698f; background: #e8f3f8; color: #0c698f; padding: 5px 10px; white-space: nowrap; }
+.map { min-height: 570px; border: 1px solid #d5dce5; border-radius: 2px; overflow: hidden; background: #eaf0f4; }
+.map-note, .muted, .definition, .source p { color: #64748b; font-size: .8rem; line-height: 1.7; }
+.big-number { margin: 4px 0; color: #0c698f; font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 700; }
+.selected-rate { color: #0c698f; white-space: nowrap; }
+.big-number small { margin-left: 5px; font-size: 1rem; font-weight: 400; }
+.chart { min-height: 310px; width: 100%; }
+.definition { border-top: 1px solid #e0e6ed; padding-top: 12px; }
+.source { margin-top: 20px; padding: 18px 22px; }
+.source p { margin: 8px 0 0; }
+.loading, .error { border-radius: 2px; padding: 18px; background: white; }
+.error { border: 1px solid #e7a5a5; color: #a33b3b; }
+@media (max-width: 900px) {
+  .metric-tabs { grid-template-columns: repeat(2, 1fr); }
+  .map { min-height: 460px; }
+}
+@media (max-width: 520px) {
+  .app-shell { padding: 20px 12px 32px; }
+  .map-panel, .details-panel { padding: 14px; }
+  .map { min-height: 390px; }
+  .section-heading { display: block; }
+  .legend { display: inline-block; margin-bottom: 10px; }
+}
