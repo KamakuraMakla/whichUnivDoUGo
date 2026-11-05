@@ -1,0 +1,357 @@
+{
+  "GET_DATA_CATALOG": {
+    "RESULT": {
+      "STATUS": 0,
+      "ERROR_MSG": "正常に終了しました。",
+      "DATE": "2026-10-27T00:19:08.529+09:00"
+    },
+    "PARAMETER": {
+      "LANG": "J",
+      "STATS_CODE": "00400001",
+      "SEARCH_WORD": "出身高校の所在地県別",
+      "DATA_TYPE": "XLS",
+      "DATA_FORMAT": "J",
+      "START_POSITION": 101,
+      "LIMIT": 100
+    },
+    "DATA_CATALOG_LIST_INF": {
+      "NUMBER": 106,
+      "RESULT_INF": {
+        "FROM_NUMBER": 101,
+        "TO_NUMBER": 106
+      },
+      "DATA_CATALOG_INF": [
+        {
+          "@id": "000001425545",
+          "DATASET": {
+            "STAT_NAME": {
+              "@code": "00400001",
+              "$": "学校基本調査"
+            },
+            "ORGANIZATION": {
+              "@code": "00400",
+              "$": "文部科学省"
+            },
+            "TITLE": {
+              "NAME": "学校基本調査_令和５年度_高等教育機関_学校調査_学校調査票（大学・大学院）_2023年",
+              "TABULATION_CATEGORY": "学校基本調査",
+              "TABULATION_SUB_CATEGORY1": "令和５年度",
+              "TABULATION_SUB_CATEGORY2": "高等教育機関",
+              "TABULATION_SUB_CATEGORY3": "学校調査",
+              "TABULATION_SUB_CATEGORY4": "学校調査票（大学・大学院）",
+              "TABULATION_SUB_CATEGORY5": "",
+              "CYCLE": "",
+              "SURVEY_DATE": 2023,
+              "COLLECT_AREA": "該当なし"
+            },
+            "DESCRIPTION": "",
+            "PUBLISHER": "文部科学省",
+            "CONTACT_POINT": "",
+            "CREATOR": "",
+            "RELEASE_DATE": "2023-12-20",
+            "LAST_MODIFIED_DATE": "2023-12-20",
+            "FREQUENCY_OF_UPDATE": "",
+            "LANDING_PAGE": "https://www.e-stat.go.jp/stat-search/files?layout=datalist&toukei=00400001&tstat=000001011528&cycle=0&tclass1=000001212520&tclass2=000001212545&tclass3=000001212546&tclass4=000001212548"
+          },
+          "RESOURCES": {
+            "RESOURCE": {
+              "@id": "000010274415",
+              "TITLE": {
+                "NAME": "旧報告書掲載集計_16_出身高校の所在地県別　入学者数",
+                "TABLE_CATEGORY": "旧報告書掲載集計",
+                "TABLE_NO": 16,
+                "TABLE_NAME": "出身高校の所在地県別　入学者数",
+                "TABLE_EXPLANATION": "",
+                "TABLE_SUB_CATEGORY1": "",
+                "TABLE_SUB_CATEGORY2": "",
+                "TABLE_SUB_CATEGORY3": ""
+              },
+              "URL": "https://www.e-stat.go.jp/stat-search/file-download?&statInfId=000040128621&fileKind=0",
+              "DESCRIPTION": "",
+              "FORMAT": "XLS",
+              "RELEASE_DATE": "2023-12-20",
+              "LAST_MODIFIED_DATE": "2023-12-20",
+              "RESOURCE_LICENCE_ID": "Government of Japan Standard Terms of Use",
+              "LANGUAGE": "J"
+            }
+          }
+        },
+        {
+          "@id": "000001425546",
+          "DATASET": {
+            "STAT_NAME": {
+              "@code": "00400001",
+              "$": "学校基本調査"
+            },
+            "ORGANIZATION": {
+              "@code": "00400",
+              "$": "文部科学省"
+            },
+            "TITLE": {
+              "NAME": "学校基本調査_令和５年度_高等教育機関_学校調査_学校調査票（短期大学）_2023年",
+              "TABULATION_CATEGORY": "学校基本調査",
+              "TABULATION_SUB_CATEGORY1": "令和５年度",
+              "TABULATION_SUB_CATEGORY2": "高等教育機関",
+              "TABULATION_SUB_CATEGORY3": "学校調査",
+              "TABULATION_SUB_CATEGORY4": "学校調査票（短期大学）",
+              "TABULATION_SUB_CATEGORY5": "",
+              "CYCLE": "",
+              "SURVEY_DATE": 2023,
+              "COLLECT_AREA": "該当なし"
+            },
+            "DESCRIPTION": "",
+            "PUBLISHER": "文部科学省",
+            "CONTACT_POINT": "",
+            "CREATOR": "",
+            "RELEASE_DATE": "2023-12-20",
+            "LAST_MODIFIED_DATE": "2023-12-20",
+            "FREQUENCY_OF_UPDATE": "",
+            "LANDING_PAGE": "https://www.e-stat.go.jp/stat-search/files?layout=datalist&toukei=00400001&tstat=000001011528&cycle=0&tclass1=000001212520&tclass2=000001212545&tclass3=000001212546&tclass4=000001212549"
+          },
+          "RESOURCES": {
+            "RESOURCE": {
+              "@id": "000010274447",
+              "TITLE": {
+                "NAME": "旧報告書掲載集計_41_出身高校の所在地県別　入学者数",
+                "TABLE_CATEGORY": "旧報告書掲載集計",
+                "TABLE_NO": 41,
+                "TABLE_NAME": "出身高校の所在地県別　入学者数",
+                "TABLE_EXPLANATION": "",
+                "TABLE_SUB_CATEGORY1": "",
+                "TABLE_SUB_CATEGORY2": "",
+                "TABLE_SUB_CATEGORY3": ""
+              },
+              "URL": "https://www.e-stat.go.jp/stat-search/file-download?&statInfId=000040128653&fileKind=0",
+              "DESCRIPTION": "",
+              "FORMAT": "XLS",
+              "RELEASE_DATE": "2023-12-20",
+              "LAST_MODIFIED_DATE": "2023-12-20",
+              "RESOURCE_LICENCE_ID": "Government of Japan Standard Terms of Use",
+              "LANGUAGE": "J"
+            }
+          }
+        },
+        {
+          "@id": "000001447985",
+          "DATASET": {
+            "STAT_NAME": {
+              "@code": "00400001",
+              "$": "学校基本調査"
+            },
+            "ORGANIZATION": {
+              "@code": "00400",
+              "$": "文部科学省"
+            },
+            "TITLE": {
+              "NAME": "学校基本調査_令和６年度_高等教育機関_学校調査_学校調査票（大学・大学院）_2024年",
+              "TABULATION_CATEGORY": "学校基本調査",
+              "TABULATION_SUB_CATEGORY1": "令和６年度",
+              "TABULATION_SUB_CATEGORY2": "高等教育機関",
+              "TABULATION_SUB_CATEGORY3": "学校調査",
+              "TABULATION_SUB_CATEGORY4": "学校調査票（大学・大学院）",
+              "TABULATION_SUB_CATEGORY5": "",
+              "CYCLE": "",
+              "SURVEY_DATE": 2024,
+              "COLLECT_AREA": "該当なし"
+            },
+            "DESCRIPTION": "",
+            "PUBLISHER": "文部科学省",
+            "CONTACT_POINT": "",
+            "CREATOR": "",
+            "RELEASE_DATE": "2024-12-18",
+            "LAST_MODIFIED_DATE": "2024-12-18",
+            "FREQUENCY_OF_UPDATE": "",
+            "LANDING_PAGE": "https://www.e-stat.go.jp/stat-search/files?layout=datalist&toukei=00400001&tstat=000001011528&cycle=0&tclass1=000001223980&tclass2=000001223981&tclass3=000001223982&tclass4=000001223984"
+          },
+          "RESOURCES": {
+            "RESOURCE": {
+              "@id": "000010443605",
+              "TITLE": {
+                "NAME": "旧報告書掲載集計_16_出身高校の所在地県別　入学者数",
+                "TABLE_CATEGORY": "旧報告書掲載集計",
+                "TABLE_NO": 16,
+                "TABLE_NAME": "出身高校の所在地県別　入学者数",
+                "TABLE_EXPLANATION": "",
+                "TABLE_SUB_CATEGORY1": "",
+                "TABLE_SUB_CATEGORY2": "",
+                "TABLE_SUB_CATEGORY3": ""
+              },
+              "URL": "https://www.e-stat.go.jp/stat-search/file-download?&statInfId=000040230324&fileKind=0",
+              "DESCRIPTION": "",
+              "FORMAT": "XLS",
+              "RELEASE_DATE": "2024-12-18",
+              "LAST_MODIFIED_DATE": "2024-12-18",
+              "RESOURCE_LICENCE_ID": "Government of Japan Standard Terms of Use",
+              "LANGUAGE": "J"
+            }
+          }
+        },
+        {
+          "@id": "000001447986",
+          "DATASET": {
+            "STAT_NAME": {
+              "@code": "00400001",
+              "$": "学校基本調査"
+            },
+            "ORGANIZATION": {
+              "@code": "00400",
+              "$": "文部科学省"
+            },
+            "TITLE": {
+              "NAME": "学校基本調査_令和６年度_高等教育機関_学校調査_学校調査票（短期大学）_2024年",
+              "TABULATION_CATEGORY": "学校基本調査",
+              "TABULATION_SUB_CATEGORY1": "令和６年度",
+              "TABULATION_SUB_CATEGORY2": "高等教育機関",
+              "TABULATION_SUB_CATEGORY3": "学校調査",
+              "TABULATION_SUB_CATEGORY4": "学校調査票（短期大学）",
+              "TABULATION_SUB_CATEGORY5": "",
+              "CYCLE": "",
+              "SURVEY_DATE": 2024,
+              "COLLECT_AREA": "該当なし"
+            },
+            "DESCRIPTION": "",
+            "PUBLISHER": "文部科学省",
+            "CONTACT_POINT": "",
+            "CREATOR": "",
+            "RELEASE_DATE": "2024-12-18",
+            "LAST_MODIFIED_DATE": "2024-12-18",
+            "FREQUENCY_OF_UPDATE": "",
+            "LANDING_PAGE": "https://www.e-stat.go.jp/stat-search/files?layout=datalist&toukei=00400001&tstat=000001011528&cycle=0&tclass1=000001223980&tclass2=000001223981&tclass3=000001223982&tclass4=000001223985"
+          },
+          "RESOURCES": {
+            "RESOURCE": {
+              "@id": "000010443630",
+              "TITLE": {
+                "NAME": "旧報告書掲載集計_41_出身高校の所在地県別　入学者数",
+                "TABLE_CATEGORY": "旧報告書掲載集計",
+                "TABLE_NO": 41,
+                "TABLE_NAME": "出身高校の所在地県別　入学者数",
+                "TABLE_EXPLANATION": "",
+                "TABLE_SUB_CATEGORY1": "",
+                "TABLE_SUB_CATEGORY2": "",
+                "TABLE_SUB_CATEGORY3": ""
+              },
+              "URL": "https://www.e-stat.go.jp/stat-search/file-download?&statInfId=000040230349&fileKind=0",
+              "DESCRIPTION": "",
+              "FORMAT": "XLS",
+              "RELEASE_DATE": "2024-12-18",
+              "LAST_MODIFIED_DATE": "2024-12-18",
+              "RESOURCE_LICENCE_ID": "Government of Japan Standard Terms of Use",
+              "LANGUAGE": "J"
+            }
+          }
+        },
+        {
+          "@id": "000001474268",
+          "DATASET": {
+            "STAT_NAME": {
+              "@code": "00400001",
+              "$": "学校基本調査"
+            },
+            "ORGANIZATION": {
+              "@code": "00400",
+              "$": "文部科学省"
+            },
+            "TITLE": {
+              "NAME": "学校基本調査_令和７年度_高等教育機関_学校調査_学校調査票（大学・大学院）_2025年",
+              "TABULATION_CATEGORY": "学校基本調査",
+              "TABULATION_SUB_CATEGORY1": "令和７年度",
+              "TABULATION_SUB_CATEGORY2": "高等教育機関",
+              "TABULATION_SUB_CATEGORY3": "学校調査",
+              "TABULATION_SUB_CATEGORY4": "学校調査票（大学・大学院）",
+              "TABULATION_SUB_CATEGORY5": "",
+              "CYCLE": "",
+              "SURVEY_DATE": 2025,
+              "COLLECT_AREA": "該当なし"
+            },
+            "DESCRIPTION": "",
+            "PUBLISHER": "文部科学省",
+            "CONTACT_POINT": "",
+            "CREATOR": "",
+            "RELEASE_DATE": "2025-12-26",
+            "LAST_MODIFIED_DATE": "2025-12-26",
+            "FREQUENCY_OF_UPDATE": "",
+            "LANDING_PAGE": "https://www.e-stat.go.jp/stat-search/files?layout=datalist&toukei=00400001&tstat=000001011528&cycle=0&tclass1=000001236922&tclass2=000001236923&tclass3=000001236924&tclass4=000001236926"
+          },
+          "RESOURCES": {
+            "RESOURCE": {
+              "@id": "000010772067",
+              "TITLE": {
+                "NAME": "旧報告書掲載集計_16_出身高校の所在地県別　入学者数",
+                "TABLE_CATEGORY": "旧報告書掲載集計",
+                "TABLE_NO": 16,
+                "TABLE_NAME": "出身高校の所在地県別　入学者数",
+                "TABLE_EXPLANATION": "",
+                "TABLE_SUB_CATEGORY1": "",
+                "TABLE_SUB_CATEGORY2": "",
+                "TABLE_SUB_CATEGORY3": ""
+              },
+              "URL": "https://www.e-stat.go.jp/stat-search/file-download?&statInfId=000040392735&fileKind=0",
+              "DESCRIPTION": "",
+              "FORMAT": "XLS",
+              "RELEASE_DATE": "2025-12-26",
+              "LAST_MODIFIED_DATE": "2025-12-26",
+              "RESOURCE_LICENCE_ID": "Government of Japan Standard Terms of Use",
+              "LANGUAGE": "J"
+            }
+          }
+        },
+        {
+          "@id": "000001474269",
+          "DATASET": {
+            "STAT_NAME": {
+              "@code": "00400001",
+              "$": "学校基本調査"
+            },
+            "ORGANIZATION": {
+              "@code": "00400",
+              "$": "文部科学省"
+            },
+            "TITLE": {
+              "NAME": "学校基本調査_令和７年度_高等教育機関_学校調査_学校調査票（短期大学）_2025年",
+              "TABULATION_CATEGORY": "学校基本調査",
+              "TABULATION_SUB_CATEGORY1": "令和７年度",
+              "TABULATION_SUB_CATEGORY2": "高等教育機関",
+              "TABULATION_SUB_CATEGORY3": "学校調査",
+              "TABULATION_SUB_CATEGORY4": "学校調査票（短期大学）",
+              "TABULATION_SUB_CATEGORY5": "",
+              "CYCLE": "",
+              "SURVEY_DATE": 2025,
+              "COLLECT_AREA": "該当なし"
+            },
+            "DESCRIPTION": "",
+            "PUBLISHER": "文部科学省",
+            "CONTACT_POINT": "",
+            "CREATOR": "",
+            "RELEASE_DATE": "2025-12-26",
+            "LAST_MODIFIED_DATE": "2025-12-26",
+            "FREQUENCY_OF_UPDATE": "",
+            "LANDING_PAGE": "https://www.e-stat.go.jp/stat-search/files?layout=datalist&toukei=00400001&tstat=000001011528&cycle=0&tclass1=000001236922&tclass2=000001236923&tclass3=000001236924&tclass4=000001236927"
+          },
+          "RESOURCES": {
+            "RESOURCE": {
+              "@id": "000010772592",
+              "TITLE": {
+                "NAME": "旧報告書掲載集計_41_出身高校の所在地県別　入学者数",
+                "TABLE_CATEGORY": "旧報告書掲載集計",
+                "TABLE_NO": 41,
+                "TABLE_NAME": "出身高校の所在地県別　入学者数",
+                "TABLE_EXPLANATION": "",
+                "TABLE_SUB_CATEGORY1": "",
+                "TABLE_SUB_CATEGORY2": "",
+                "TABLE_SUB_CATEGORY3": ""
+              },
+              "URL": "https://www.e-stat.go.jp/stat-search/file-download?&statInfId=000040392980&fileKind=0",
+              "DESCRIPTION": "",
+              "FORMAT": "XLS",
+              "RELEASE_DATE": "2025-12-26",
+              "LAST_MODIFIED_DATE": "2025-12-26",
+              "RESOURCE_LICENCE_ID": "Government of Japan Standard Terms of Use",
+              "LANGUAGE": "J"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
